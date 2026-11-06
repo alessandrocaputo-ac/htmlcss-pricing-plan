@@ -21,6 +21,14 @@ main {
 
 .card {
     flex-basis: calc((100% - 80px) / 3);
-    min-width: 220px;
+    min-width: 340px;
     flex-grow: 1;
+    padding: 60px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+}
+
+.professional {
+    background-color: #6a00ff;
+    color: #ffffff;
 }
